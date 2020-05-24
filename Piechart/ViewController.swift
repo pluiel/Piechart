@@ -13,8 +13,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+  
     }
+    @IBOutlet var namelabel: UILabel!
+    @IBOutlet var timelabel: UILabel!
+}
+//UIAlertViewController
 
+
+     {
+        @IBAction func NameTextField: UITextField!
+        @IBAction func TimeTextField: UITextField!
 
 }
+
 
