@@ -18,13 +18,5 @@ class ViewController: UIViewController {
     @IBOutlet var namelabel: UILabel!
     @IBOutlet var timelabel: UILabel!
 }
-//UIAlertViewController
-
-
-     {
-        @IBAction func NameTextField: UITextField!
-        @IBAction func TimeTextField: UITextField!
-
-}
 
 

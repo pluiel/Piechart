@@ -15,6 +15,8 @@
 		F94E9114247662DF00C7E0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94E9112247662DF00C7E0E2 /* LaunchScreen.storyboard */; };
 		F94E911F247662E000C7E0E2 /* PiechartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94E911E247662E000C7E0E2 /* PiechartTests.swift */; };
 		F94E912A247662E000C7E0E2 /* PiechartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94E9129247662E000C7E0E2 /* PiechartUITests.swift */; };
+		F94E91BB247A6D5E00C7E0E2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94E91BA247A6D5E00C7E0E2 /* AddViewController.swift */; };
+		F94E91BD247A6FAA00C7E0E2 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94E91BC247A6FAA00C7E0E2 /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F94E9125247662E000C7E0E2 /* PiechartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiechartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94E9129247662E000C7E0E2 /* PiechartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiechartUITests.swift; sourceTree = "<group>"; };
 		F94E912B247662E000C7E0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94E91BA247A6D5E00C7E0E2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F94E91BC247A6FAA00C7E0E2 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				F94E9107247662DD00C7E0E2 /* AppDelegate.swift */,
+				F94E91BC247A6FAA00C7E0E2 /* ListTableViewController.swift */,
 				F94E9109247662DD00C7E0E2 /* SceneDelegate.swift */,
 				F94E910B247662DD00C7E0E2 /* ViewController.swift */,
 				F94E910D247662DD00C7E0E2 /* Main.storyboard */,
 				F94E9110247662DF00C7E0E2 /* Assets.xcassets */,
 				F94E9112247662DF00C7E0E2 /* LaunchScreen.storyboard */,
 				F94E9115247662DF00C7E0E2 /* Info.plist */,
+				F94E91BA247A6D5E00C7E0E2 /* AddViewController.swift */,
 			);
 			path = Piechart;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94E91BB247A6D5E00C7E0E2 /* AddViewController.swift in Sources */,
 				F94E910C247662DD00C7E0E2 /* ViewController.swift in Sources */,
 				F94E9108247662DD00C7E0E2 /* AppDelegate.swift in Sources */,
+				F94E91BD247A6FAA00C7E0E2 /* ListTableViewController.swift in Sources */,
 				F94E910A247662DD00C7E0E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
