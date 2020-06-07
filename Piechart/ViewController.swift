@@ -38,13 +38,13 @@ class ViewController:
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {
         
-        return Int
+        return kadaitextArray.count
 }
 
    
     func numberOfSections(in tableView: UITableView) -> Int {
         
-        return Int
+        return 0
     }
     
     func tableView(_ tableView: UITableView,

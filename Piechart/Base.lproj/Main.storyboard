@@ -77,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="1028.985507246377" y="34.821428571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Piechart View Controller-->
         <scene sceneID="5Ou-yg-CTi">
             <objects>
-                <viewController id="pUp-YD-Vwg" sceneMemberID="viewController">
+                <viewController id="pUp-YD-Vwg" customClass="PiechartViewController" customModule="Piechart" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hdO-8i-ni8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
