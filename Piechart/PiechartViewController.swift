@@ -2,12 +2,10 @@
 //  PiechartViewController.swift
 //  Piechart
 //
-//  Created by Yuka Uematsu on 2020/06/03.
+//  Created by Yuka Uematsu on 2020/06/08.
 //  Copyright © 2020 Uematsu Well. All rights reserved.
 //
-
 import UIKit
-import Charts
 
 class PiechartViewController: UIViewController {
 
@@ -18,6 +16,6 @@ class PiechartViewController: UIViewController {
     }
     
 
-    
+   
 
 }

@@ -8,75 +8,41 @@
 
 import UIKit
 
-class ViewController:
-    UIViewController, UITableViewDelegate,
-    UITableViewDataSource, UITextFieldDelegate{
+class ViewController: UIViewController {
     
+    //from FinishView to View
+    @IBAction func back(sender: UIStoryboardSegue) {
+        
+    }
     
-    @IBOutlet weak var kadai: UILabel!
-    @IBOutlet weak var time: UILabel!
-    
-    @IBOutlet weak var kadaitextField: UITextField!
-    @IBOutlet weak var timetextField: UITextField!
-    
-    @IBOutlet weak var tableView: UITableView!
-    
-    var kadaitextArray = [String]()
-    var timetextArray = [String]()
-    
+    @IBAction func createButtonTapped() {
+        //saveData
+        let saveData = UserDefaults.standard
+        //saveDataから配列を取り出す
+        if saveData.array(forKey: "Chart") != nil {
+            //要素数を取得count
+            if saveData.array(forKey: "Chart")!.count > 0 {
+                //PiechartViewへ
+                performSegue(withIdentifier: "toPiechartView", sender: nil)
+            }else {
+                //alertの表示
+                let alert = UIAlertController(
+                    title: "データ入力", message: "グラフデータを入力してください！", preferredStyle: .alert
+                )
+                //"OK"Action
+                alert.addAction(UIAlertAction(
+                    title: "OK",
+                    style: .default,
+                    handler: nil))
+                //遷移先に移動
+                self.present(alert, animated: true, completion: nil)
+                //遷移先閉じる時は self.dismiss(animated: true, completion: nil)
+            }
+        }
+    }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        tableView.delegate = self
-        tableView.dataSource = self
-        kadaitextField.delegate = self
-        timetextField.delegate = self
-    }
-    
-    
-    func tableView(_ tableView: UITableView,
-                   numberOfRowsInSection section: Int) -> Int {
-        
-        return kadaitextArray.count
-}
 
-   
-    func numberOfSections(in tableView: UITableView) -> Int {
-        
-        return 0
-    }
-    
-    func tableView(_ tableView: UITableView,
-                   cellForRowAt indexPath: IndexPath) ->
-        UITableViewCell{
-            
-            let cell =
-                tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-            
-            cell.textLabel?.text = kadaitextArray[indexPath.row]
-            
-            return cell
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let nextVC =
-            storyboard?.instantiateViewController(identifier: "next") as!
-        NextViewController
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return view.frame.size.height/12
-        
-    }
-    
-    func kadaitextFieldShouldReturn(_ textField: UITextField) -> Bool {
-        kadaitextArray.append(textField.text!)
-        kadaitextField.resignFirstResponder()
-        kadaitextField.text = ""
-        tableView.reloadData()
-        
-        return true
-    }
-    
+
+
+
 }
