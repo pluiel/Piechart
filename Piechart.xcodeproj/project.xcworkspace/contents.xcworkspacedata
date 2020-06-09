@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Piechart.xcodeproj">
+      location = "group:../ListTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/yukauematsu/Desktop/Piechart/Piechart/ListTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:project.pbxproj">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

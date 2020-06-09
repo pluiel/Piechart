@@ -10,36 +10,51 @@ import UIKit
 
 class AddTextViewController: UIViewController {
     
-    @IBOutlet weak var kadailabel: UILabel!
-    @IBOutlet weak var timelabel: UILabel!
+   
     
-    @IBOutlet weak var kadaiTextField: UITextField!
+   @IBOutlet weak var kadaiTextField: UITextField!
     @IBOutlet weak var timeTextField: UITextField!
     
-
-    var chartArray: [Dictionary<String, Int>] = []
-    
+    //空の配列を作成,配列の要素が辞書(String型、Int型)
+    var chartArray: [Dictionary<String, String>] = []
+    //saveData
     let saveData = UserDefaults.standard
     
   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        if saveData.array(forKey: "Chart") != nil {
-            chartArray = saveData.array(forKey: "Chart") as! [Dictionary<String, Int>]
+        
+        if saveData.array(forKey: "Chart") != nil  {
+            //具体的な型として扱う(ダウンキャスト)
+            chartArray = saveData.array(forKey: "Chart") as! [Dictionary<String, String>]
         }
     }
         
     @IBAction func saveChart() {
         
-        let chartDictionary:[Dictionary<String, Int>] = ["kadai": kadaiTextField.text!, "time": timeTextField.text!]
-        
+        let chartDictionary = ["kadai" : kadaiTextField.text!, "time": timeTextField.text!]
+       
+        //appendで要素を追加
         chartArray.append(chartDictionary)
         saveData.set(chartArray, forKey: "Chart")
+        
+        let alert = UIAlertController(
+                   title: "保存完了",
+                   message: "データの登録が完了しました",
+                   preferredStyle: .alert
+               )
+               alert.addAction(UIAlertAction(
+                   title: "OK",
+                   style: .default,
+                   handler: nil
+               ))
+               present(alert, animated: true, completion: nil)
+               kadaiTextField.text = ""
+               timeTextField.text = ""
+           }
        
       
-           }
     }
     
 
