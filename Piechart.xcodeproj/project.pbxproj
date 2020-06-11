@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16CD00BF6020AE07DB61E40D /* Pods_Piechart_PiechartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924B564D5B70BC0B1DE52AE6 /* Pods_Piechart_PiechartUITests.framework */; };
+		5A214955F89CEC385D65A4CB /* Pods_Piechart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58963FD4FFCE92A32FB34DB /* Pods_Piechart.framework */; };
+		C65CC2D728273FDAEFDAEB0E /* Pods_PiechartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E1C7844A930944B695A4B6 /* Pods_PiechartTests.framework */; };
 		F94E9108247662DD00C7E0E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94E9107247662DD00C7E0E2 /* AppDelegate.swift */; };
 		F94E910A247662DD00C7E0E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94E9109247662DD00C7E0E2 /* SceneDelegate.swift */; };
 		F94E910C247662DD00C7E0E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94E910B247662DD00C7E0E2 /* ViewController.swift */; };
@@ -40,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A2B3D4713620CF8E95634F8 /* Pods-Piechart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piechart.release.xcconfig"; path = "Target Support Files/Pods-Piechart/Pods-Piechart.release.xcconfig"; sourceTree = "<group>"; };
+		6E2A23B490F2777F8E30C736 /* Pods-Piechart-PiechartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piechart-PiechartUITests.debug.xcconfig"; path = "Target Support Files/Pods-Piechart-PiechartUITests/Pods-Piechart-PiechartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70E1C7844A930944B695A4B6 /* Pods_PiechartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiechartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924B564D5B70BC0B1DE52AE6 /* Pods_Piechart_PiechartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piechart_PiechartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCAF20D57A98F7D5F567ECB /* Pods-PiechartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiechartTests.debug.xcconfig"; path = "Target Support Files/Pods-PiechartTests/Pods-PiechartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D7B6DB4CAD07F341D3F1099 /* Pods-PiechartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiechartTests.release.xcconfig"; path = "Target Support Files/Pods-PiechartTests/Pods-PiechartTests.release.xcconfig"; sourceTree = "<group>"; };
+		B496D9F672FB193F9AB91449 /* Pods-Piechart-PiechartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piechart-PiechartUITests.release.xcconfig"; path = "Target Support Files/Pods-Piechart-PiechartUITests/Pods-Piechart-PiechartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E58963FD4FFCE92A32FB34DB /* Pods_Piechart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piechart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E636FAB50CF266F55EC19B08 /* Pods-Piechart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piechart.debug.xcconfig"; path = "Target Support Files/Pods-Piechart/Pods-Piechart.debug.xcconfig"; sourceTree = "<group>"; };
 		F94E9104247662DD00C7E0E2 /* Piechart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piechart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94E9107247662DD00C7E0E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F94E9109247662DD00C7E0E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A214955F89CEC385D65A4CB /* Pods_Piechart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65CC2D728273FDAEFDAEB0E /* Pods_PiechartTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,16 +94,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16CD00BF6020AE07DB61E40D /* Pods_Piechart_PiechartUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64C2E4EF26380132DE4AE3DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E636FAB50CF266F55EC19B08 /* Pods-Piechart.debug.xcconfig */,
+				6A2B3D4713620CF8E95634F8 /* Pods-Piechart.release.xcconfig */,
+				6E2A23B490F2777F8E30C736 /* Pods-Piechart-PiechartUITests.debug.xcconfig */,
+				B496D9F672FB193F9AB91449 /* Pods-Piechart-PiechartUITests.release.xcconfig */,
+				9BCAF20D57A98F7D5F567ECB /* Pods-PiechartTests.debug.xcconfig */,
+				9D7B6DB4CAD07F341D3F1099 /* Pods-PiechartTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E57CF3F1E87D7F27D27F4D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E58963FD4FFCE92A32FB34DB /* Pods_Piechart.framework */,
+				924B564D5B70BC0B1DE52AE6 /* Pods_Piechart_PiechartUITests.framework */,
+				70E1C7844A930944B695A4B6 /* Pods_PiechartTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F94E90FB247662DD00C7E0E2 = {
 			isa = PBXGroup;
 			children = (
 				F94E9106247662DD00C7E0E2 /* Piechart */,
+				64C2E4EF26380132DE4AE3DF /* Pods */,
+				E57CF3F1E87D7F27D27F4D12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,13 +155,13 @@
 				F9B1C723248DF6CD0045DB74 /* FinishViewController.swift */,
 				F9B1C71D248DF2750045DB74 /* ListTableViewController.swift */,
 				F9B1C721248DF3100045DB74 /* AddTextViewController.swift */,
+				F955A3A4248FAF610020116D /* ListTableViewCell.swift */,
 				F94E9110247662DF00C7E0E2 /* Assets.xcassets */,
 				F94E9112247662DF00C7E0E2 /* LaunchScreen.storyboard */,
 				F94E9115247662DF00C7E0E2 /* Info.plist */,
 				F94E9105247662DD00C7E0E2 /* Products */,
 				F94E9128247662E000C7E0E2 /* PiechartUITests */,
 				F94E911D247662E000C7E0E2 /* PiechartTests */,
-				F955A3A4248FAF610020116D /* ListTableViewCell.swift */,
 			);
 			path = Piechart;
 			sourceTree = "<group>";
@@ -151,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F94E912E247662E000C7E0E2 /* Build configuration list for PBXNativeTarget "Piechart" */;
 			buildPhases = (
+				7E762512CA3CB648C3FEB609 /* [CP] Check Pods Manifest.lock */,
 				F94E9100247662DD00C7E0E2 /* Sources */,
 				F94E9101247662DD00C7E0E2 /* Frameworks */,
 				F94E9102247662DD00C7E0E2 /* Resources */,
+				43973765F17C4B25E3EC039A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,7 +233,7 @@
 				F94E9121247662E000C7E0E2 /* Sources */,
 				F94E9122247662E000C7E0E2 /* Frameworks */,
 				F94E9123247662E000C7E0E2 /* Resources */,
-				41998AFF832BC71E43A56119 /* [CP] Embed Pods Frameworks */,
+				8729FBE844B1E109D09BF42F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,21 +316,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41998AFF832BC71E43A56119 /* [CP] Embed Pods Frameworks */ = {
+		43973765F17C4B25E3EC039A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Piechart-PiechartUITests/Pods-Piechart-PiechartUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Piechart/Pods-Piechart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Piechart-PiechartUITests/Pods-Piechart-PiechartUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Piechart/Pods-Piechart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Piechart-PiechartUITests/Pods-Piechart-PiechartUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Piechart/Pods-Piechart-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		57A5FD5997B891E37E66C98A /* [CP] Check Pods Manifest.lock */ = {
@@ -333,6 +375,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E762512CA3CB648C3FEB609 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Piechart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8729FBE844B1E109D09BF42F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Piechart-PiechartUITests/Pods-Piechart-PiechartUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Piechart-PiechartUITests/Pods-Piechart-PiechartUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Piechart-PiechartUITests/Pods-Piechart-PiechartUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -512,6 +593,7 @@
 		};
 		F94E912F247662E000C7E0E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E636FAB50CF266F55EC19B08 /* Pods-Piechart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +612,7 @@
 		};
 		F94E9130247662E000C7E0E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2B3D4713620CF8E95634F8 /* Pods-Piechart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +631,7 @@
 		};
 		F94E9132247662E000C7E0E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCAF20D57A98F7D5F567ECB /* Pods-PiechartTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -570,6 +654,7 @@
 		};
 		F94E9133247662E000C7E0E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7B6DB4CAD07F341D3F1099 /* Pods-PiechartTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -592,6 +677,7 @@
 		};
 		F94E9135247662E000C7E0E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2A23B490F2777F8E30C736 /* Pods-Piechart-PiechartUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -612,6 +698,7 @@
 		};
 		F94E9136247662E000C7E0E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B496D9F672FB193F9AB91449 /* Pods-Piechart-PiechartUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
