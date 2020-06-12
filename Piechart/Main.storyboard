@@ -19,6 +19,9 @@
                                 <rect key="frame" x="169" y="399" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="グラフ作成"/>
+                                <connections>
+                                    <action selector="createButtonTapped" destination="JBo-2W-p4f" eventType="touchUpInside" id="NTj-LN-gTT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRj-sM-QE4">
                                 <rect key="frame" x="169" y="573" width="77" height="30"/>
@@ -47,6 +50,13 @@
                     <view key="view" contentMode="scaleToFill" id="adf-p4-cLH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cyf-z3-4Zi">
+                                <rect key="frame" x="87" y="250" width="250" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="QYz-eq-Qs5"/>
                     </view>
@@ -56,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b7V-RX-wKX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1243" y="-963"/>
+            <point key="canvasLocation" x="1242.0289855072465" y="-963.61607142857133"/>
         </scene>
         <!--Finish View Controller-->
         <scene sceneID="fOA-5Z-BC4">

@@ -12,9 +12,10 @@ class ViewController: UIViewController {
     
     //from FinishView to View
     @IBAction func back(sender: UIStoryboardSegue) {
+        //アラートで"お疲れ様でした"の表示をする
         
     }
-    
+    //関連付けを行う
     @IBAction func createButtonTapped() {
         //saveData
         let saveData = UserDefaults.standard
